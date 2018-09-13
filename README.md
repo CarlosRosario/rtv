@@ -1,6 +1,7 @@
 <h1 align="center">
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <img alt="" src="resources/logo.png"/>
 =======
 <img alt="Reddit Terminal Viewer AND CARLOS RULES" src="resources/logo.png"/>
@@ -8,6 +9,9 @@
 =======
 <img alt="Reddit Terminal Viewer AND CARLOS REALLY REALLY RULES" src="resources/logo.png"/>
 >>>>>>> fdcf05e... updating README one more time
+=======
+<img alt="Reddit Terminal Viewer AND CARLOS RULES" src="resources/logo.png"/>
+>>>>>>> 53f14dcf1a9c9e10778561c10f9d5ab780dd4a9e
 </h1>
 
 <p align="center">
