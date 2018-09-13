@@ -1,5 +1,13 @@
 <h1 align="center">
+<<<<<<< HEAD
+<<<<<<< HEAD
 <img alt="" src="resources/logo.png"/>
+=======
+<img alt="Reddit Terminal Viewer AND CARLOS RULES" src="resources/logo.png"/>
+>>>>>>> 53f14dc... updating README.md temporarily
+=======
+<img alt="Reddit Terminal Viewer AND CARLOS REALLY REALLY RULES" src="resources/logo.png"/>
+>>>>>>> fdcf05e... updating README one more time
 </h1>
 
 <p align="center">
