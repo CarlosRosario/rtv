@@ -1,17 +1,5 @@
 <h1 align="center">
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
 <img alt="" src="resources/logo.png"/>
-=======
-<img alt="Reddit Terminal Viewer AND CARLOS RULES" src="resources/logo.png"/>
->>>>>>> 53f14dc... updating README.md temporarily
-=======
-<img alt="Reddit Terminal Viewer AND CARLOS REALLY REALLY RULES" src="resources/logo.png"/>
->>>>>>> fdcf05e... updating README one more time
-=======
-<img alt="Reddit Terminal Viewer AND CARLOS RULES" src="resources/logo.png"/>
->>>>>>> 53f14dcf1a9c9e10778561c10f9d5ab780dd4a9e
 </h1>
 
 <p align="center">
@@ -52,14 +40,14 @@ RTV is built in python using the curses library.
 
 ---
 
-* [Demo](#demo)  
-* [Installation](#installation)  
-* [Usage](#usage)  
-* [Settings](#settings)
-* [Themes](#themes)
-* [FAQ](#faq)  
-* [Contributing](#contributing)  
-* [License](#license)  
+- [Demo](#demo)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Settings](#settings)
+- [Themes](#themes)
+- [FAQ](#faq)
+- [Contributing](#contributing)
+- [License](#license)
 
 ## Demo
 
@@ -105,7 +93,7 @@ $ rtv --help
 
 ### Controls
 
-Move the cursor using either the arrow keys or *Vim* style movement:
+Move the cursor using either the arrow keys or _Vim_ style movement:
 
 - Press <kbd>▲</kbd> and <kbd>▼</kbd> to scroll through submissions
 - Press <kbd>▶</kbd> to view the selected submission and <kbd>◀</kbd> to return
@@ -115,12 +103,12 @@ Move the cursor using either the arrow keys or *Vim* style movement:
 
 Press <kbd>/</kbd> to open the navigation prompt, where you can type things like:
 
-- ``/front``
-- ``/r/commandprompt+linuxmasterrace``
-- ``/r/programming/controversial``
-- ``/u/me``
-- ``/u/multi-mod/m/art``
-- ``/domain/github.com``
+- `/front`
+- `/r/commandprompt+linuxmasterrace`
+- `/r/programming/controversial`
+- `/u/me`
+- `/u/multi-mod/m/art`
+- `/domain/github.com`
 
 See [CONTROLS](CONTROLS.rst) for the full list of commands.
 
@@ -128,7 +116,7 @@ See [CONTROLS](CONTROLS.rst) for the full list of commands.
 
 ### Configuration File
 
-Configuration files are stored in the ``{HOME}/.config/rtv/`` directory.
+Configuration files are stored in the `{HOME}/.config/rtv/` directory.
 
 Check out [rtv.cfg](rtv/templates/rtv.cfg) for the full list of configurable options. You can clone this file into your home directory by running:
 
@@ -144,15 +132,15 @@ You can use [mailcap](https://en.wikipedia.org/wiki/Media_type#Mailcap) to confi
 <img alt="title image" src="resources/mailcap.gif"/>
 </p>
 
-A mailcap file allows you to associate different MIME media types, like ``image/jpeg`` or ``video/mp4``, with shell commands. This feature is disabled by default because it takes a few extra steps to configure. To get started, copy the default mailcap template to your home directory.
+A mailcap file allows you to associate different MIME media types, like `image/jpeg` or `video/mp4`, with shell commands. This feature is disabled by default because it takes a few extra steps to configure. To get started, copy the default mailcap template to your home directory.
 
 ```bash
 $ rtv --copy-mailcap
 ```
 
-This template contains examples for common MIME types that work with popular reddit websites like *imgur*, *youtube*, and *gfycat*. Open the mailcap template and follow the [instructions](rtv/templates/mailcap) listed inside.
+This template contains examples for common MIME types that work with popular reddit websites like _imgur_, _youtube_, and _gfycat_. Open the mailcap template and follow the [instructions](rtv/templates/mailcap) listed inside.
 
-Once you've setup your mailcap file, enable it by launching rtv with the ``rtv --enable-media`` flag (or set it in your **rtv.cfg**)
+Once you've setup your mailcap file, enable it by launching rtv with the `rtv --enable-media` flag (or set it in your **rtv.cfg**)
 
 ### Environment Variables
 
@@ -208,7 +196,7 @@ Themes can be used to customize the look and feel of RTV
   </tr>
 </table>
 
-List installed themes with the ``--list-themes`` command, and select one with ``--theme``. You can also set the theme permenantly in your [rtv.cfg](rtv/templates/rtv.cfg) file. You can use the <kbd>F2</kbd> & <kbd>F3</kbd> keys inside of RTV to preview themes.
+List installed themes with the `--list-themes` command, and select one with `--theme`. You can also set the theme permenantly in your [rtv.cfg](rtv/templates/rtv.cfg) file. You can use the <kbd>F2</kbd> & <kbd>F3</kbd> keys inside of RTV to preview themes.
 
 For instructions on writing and installing your own themes, see [THEMES.md](THEMES.md).
 
@@ -258,10 +246,11 @@ For instructions on writing and installing your own themes, see [THEMES.md](THEM
 </details>
 
 ## Contributing
+
 All feedback and suggestions are welcome, just post an issue!
 
 Before writing any code, please read the [Contributor Guidelines](CONTRIBUTING.rst).
 
 ## License
+
 This project is distributed under the [MIT](LICENSE) license.
-   
