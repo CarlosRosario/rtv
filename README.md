@@ -1,5 +1,5 @@
 <h1 align="center">
-<img alt="Reddit Terminal Viewer" src="resources/logo.png"/>
+<img alt="Reddit Terminal Viewer AND CARLOS RULES" src="resources/logo.png"/>
 </h1>
 
 <p align="center">
